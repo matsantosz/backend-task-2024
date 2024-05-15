@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->foreignId('book_id');
             $table->foreignId('store_id');
-            $table->timestamps();
         });
     }
 
